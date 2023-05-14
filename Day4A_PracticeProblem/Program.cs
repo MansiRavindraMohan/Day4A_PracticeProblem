@@ -10,8 +10,12 @@ namespace Day4A_PracticeProblem
     {
         static void Main(string[] args)
         {
+            //ArrayList
             DemoArrayList demoArrayList = new DemoArrayList();
             demoArrayList.MethodArrayList();
+            //Dictionary
+            DemoDictionary demoDictionary = new DemoDictionary();
+            demoDictionary.MethodDictionary();
             Console.ReadLine();
         }
     }
